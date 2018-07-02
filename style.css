@@ -1,3 +1,46 @@
 body {
     height: 300vh;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #333340;
+    color: #fff;
+    text-align: right;
+    height: 6rem;
+    transition: all .2s ease-in-out;
+}
+
+.nav--up {
+    top: -6rem;
+}
+
+nav ul {
+    margin: 0;
+    padding: 1.5rem 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 20px;
+    line-height: 3rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+.content {
+    margin-top: 9rem;
 }
