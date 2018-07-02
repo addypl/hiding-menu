@@ -13,6 +13,7 @@ nav {
     text-align: right;
     height: 6rem;
     transition: all .2s ease-in-out;
+    z-index: 99;
 }
 
 .nav--up {
